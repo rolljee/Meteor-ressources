@@ -24,52 +24,52 @@ import './examples.html';
 
 // Before template is rendered callback
 Template.Exemple.onCreated(function () {
-    // Usualy perform sub and initialize template reactive variable
+	// Usualy perform sub and initialize template reactive variable
 	this.subscribe('Publication');
 	this.exempleVar = new ReactiveVar(false);
 });
 
 Template.Exemple.onRendered(function () {
-    // Autorun function are reactive function listening on reactiveVar (eg: ReactiveVar or Session variable)
+	// Autorun function are reactive function listening on reactiveVar (eg: ReactiveVar or Session variable)
 	this.autorun(function () {
-	  // SubscriptionsReady is a reactive function notifying us when all subscriptions performed are ended
-	  if (this.subscriptionsReady()) {
-	    // usualy set template variable here when data are loaded on Minimongo
-	    const record = Collection.findOne(this.data._id);
-	    this.exempleVar.set(record.name);
-	  }
-	}.bind(this))
+		// SubscriptionsReady is a reactive function notifying us when all subscriptions performed are ended
+		if (this.subscriptionsReady()) {
+			// usualy set template variable here when data are loaded on Minimongo
+			const record = Collection.findOne(this.data._id);
+			this.exempleVar.set(record.name);
+		}
+	}.bind(this));
 });
 
 // Helper function are reactive function scoped to this template only
 Template.Exemple.helpers({
-    // access this in the dom by calling {{helperName}}
+	// access this in the dom by calling {{helperName}}
 	helperName() {
-    	return Template.instance().exempleVar.get();
+		return Template.instance().exempleVar.get();
 	},
 	helperEachName() {
-	  return [{
-	    foo: 'bar'
-	  }, {
-	    bar: 'foo'
-	  }];
+		return [{
+			foo: 'bar'
+		}, {
+			bar: 'foo'
+		}];
 	}
 });
 
 // Event binding on the template
 Template.Exemple.events({
-    // By convention event are binded on class and prefixed by js-event-name
+	// By convention event are binded on class and prefixed by js-event-name
 	'click .js-class-name'(event, instance) {
-    	// Meteor.call allow us to communicate with the server from the client
-        Meteor.call('server.call', this, (error, result) => {
-      	  if (error) {
-      	    // handle error
-      	    console.error(error);
-      	  } else {
-      	    // handle result
-      	    instance.exempleVar.set(result);
-      	  }
-    	})
+		// Meteor.call allow us to communicate with the server from the client
+		Meteor.call('server.call', this, (error, result) => {
+			if (error) {
+				// handle error
+				console.error(error);
+			} else {
+				// handle result
+				instance.exempleVar.set(result);
+			}
+		});
 	}
 });
 

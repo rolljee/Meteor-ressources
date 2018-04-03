@@ -35,7 +35,7 @@ And create some good examples witch you might end up to use in your application
 
 ## What's next ??
 
-- [ ] Blaze template exemple
+- [x] Blaze template exemple
 - [ ] Pub/sub concept
 - [ ] Project stucture
 - [ ] Vscode snippet
