@@ -36,10 +36,10 @@ And create some good examples witch you might end up to use in your application
 ## What's next ??
 
 - [x] Blaze template exemple
+- [x] Eslint setup for MeteorJS
 - [ ] Pub/sub concept
 - [ ] Project stucture
 - [ ] Vscode snippet
-- [ ] Eslint setup for MeteorJS
 - [ ] Editorconfig
 - [ ] Mobile-config
 - [ ] jsdoc

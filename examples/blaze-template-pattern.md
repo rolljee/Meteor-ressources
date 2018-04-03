@@ -49,9 +49,9 @@ Template.Exemple.helpers({
 	},
 	helperEachName() {
 		return [{
-			foo: 'bar'
+			name: 'bar'
 		}, {
-			bar: 'foo'
+			name: 'foo'
 		}];
 	}
 });
