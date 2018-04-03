@@ -135,3 +135,5 @@ node_modules
 + In VSCODE download
 
 ![eslint](https://vscode-doc-jp.github.io/docs/nodejs/images/reactjs/eslint-extension.png)
+
+Then run `meteor npm install` and you are good to go !
