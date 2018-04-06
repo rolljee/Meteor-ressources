@@ -6,17 +6,20 @@ Well the aim of this repo is to list few of them i really use.
 
 And create some good examples witch you might end up to use in your application
 
-# Ressources
+## Ressources
 
 ## Javascript and beyond
 
 + [For the love of Clean Code](https://github.com/ryanmcdermott/clean-code-javascript) - The best ressources ever writted in JS
++ [Do you really know JS?](https://github.com/getify/You-Dont-Know-JS) - The best ressources ever writted in JS
 
 ## MeteorJS
 
 + [Set of usefull link for MeteorJS](https://github.com/Urigo/awesome-meteor) - Where to start if you are new to MeteorJS
 + [MeteorJS docs](https://docs.meteor.com) - Official documentation website for MeteorJS
 + [{Meteor Tuts}](http://www.meteor-tuts.com/index.html) - One of the best MeteorJS ressource on the internet for advanced concept
++ [Mantra](https://kadirahq.github.io/mantra/) - Maybe old, but style guide never get to old
+
 + [BlazeJS](http://blazejs.org) - Blaze documentation
 
 ## Package manager
