@@ -39,7 +39,11 @@ And create some good examples witch you might end up to use in your application
 
 + [Hexo Doc template](https://github.com/zalando-incubator/hexo-theme-doc) - Because nice documentation equal nice project
 
-## What's next ??
+## How to build an API
+
++ [How to build and maintain an API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#useful-post-responses)
+
+## What's next
 
 + [x] Blaze template exemple
 + [x] Eslint setup for MeteorJS
