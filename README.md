@@ -10,8 +10,8 @@ And create some good examples witch you might end up to use in your application
 
 ## Javascript and beyond
 
-+ [For the love of Clean Code](https://github.com/ryanmcdermott/clean-code-javascript) - The best ressources ever writted in JS
-+ [Do you really know JS?](https://github.com/getify/You-Dont-Know-JS) - The best ressources ever writted in JS
++ [For the love of Clean Code](https://github.com/ryanmcdermott/clean-code-javascript) - Clean Code Javascript
++ [Do you really know JS?](https://github.com/getify/You-Dont-Know-JS) - You don't know JS
 
 ## MeteorJS
 
@@ -35,16 +35,19 @@ And create some good examples witch you might end up to use in your application
 
 + [For the love of NodeJS](https://github.com/sindresorhus/awesome-nodejs) - Because MeteorJS rely on NodeJS
 
+## Write good documentation
+
++ [Hexo Doc template](https://github.com/zalando-incubator/hexo-theme-doc) - Because nice documentation equal nice project
 
 ## What's next ??
 
-- [x] Blaze template exemple
-- [x] Eslint setup for MeteorJS
-- [ ] Pub/sub concept
-- [ ] Project stucture
-- [ ] Vscode snippet
-- [ ] Editorconfig
-- [ ] Mobile-config
-- [ ] jsdoc
-- [ ] translation using i18n
-- [ ] meteor up exemple
++ [x] Blaze template exemple
++ [x] Eslint setup for MeteorJS
++ [ ] Pub/sub concept
++ [ ] Project stucture
++ [ ] Vscode snippet
++ [ ] Editorconfig
++ [ ] Mobile+config
++ [ ] jsdoc
++ [ ] translation using i18n
++ [ ] meteor up exemple
