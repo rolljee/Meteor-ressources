@@ -43,6 +43,10 @@ And create some good examples witch you might end up to use in your application
 
 + [How to build and maintain an API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#useful-post-responses)
 
+## Monitoring
+
+[Kadira is back??](https://github.com/lmachens/meteor-apm-server)
+
 ## What's next
 
 + [x] Blaze template exemple
