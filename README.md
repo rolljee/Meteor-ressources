@@ -47,12 +47,16 @@ And create some good examples witch you might end up to use in your application
 
 [Kadira is back??](https://github.com/lmachens/meteor-apm-server)
 
+## Project stucture and grapher
+
+[Project structure and Grapher](https://github.com/rolljee/blazejs-grapher) - See project stucture and grapher together using blaze
+
 ## What's next
 
 + [x] Blaze template exemple
 + [x] Eslint setup for MeteorJS
 + [ ] Pub/sub concept
-+ [ ] Project stucture
++ [x] Project stucture
 + [ ] Vscode snippet
 + [ ] Editorconfig
 + [ ] Mobile+config
